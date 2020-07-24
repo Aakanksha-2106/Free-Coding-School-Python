@@ -1,0 +1,275 @@
+Basic Python Syntax
+
+BACK SLASH 
+print("Hello \ python") 
+
+Hello python 
+
+print("Hello World") 
+
+Hello World 
+
+print("python world") 
+
+python world 
+
+TIPLE QUOTES
+
+
+print(""" Hello Every one""" ) 
+
+Hello Every one 
+
+print( """ / / / / / / / / / / / / / / / / / / __,____, /____,_/ \ .;';';. ,l__[]__,l_! ,,)(,, - - - - - - """ ) 
+
+/ / / / / / / / / / / / / / / / / / __,____, /____,_/ \ .;';';. ,l__[]__,l_! ,,)(,, - - - - - - 
+
+print('Hello World') 
+
+Hello World 
+
+print("python's world") 
+
+python's world 
+
+STRING INSIDE THE QUOTE
+
+
+print("hello\tpython") 
+
+hello	python 
+
+
+print('python\'s world') 
+
+python's world 
+
+
+print("hello\apython") 
+
+hellopython 
+
+FORMATTED OUTPUT
+
+name="Aaku" marks="90.87" age="20" print("The name of person is ", name, "mark is ", marks, "age is", age) 
+
+The name of person is Aaku mark is 90.87 age is 20 
+
+print("The name of person is %s marks is %f age is %d"%(name,marks,age) ) 
+
+print(f"the name of perosn is {name} the marks{marks} is age is {age}") 
+
+the name of perosn is Archana the marks90.87 is age is 20 
+
+Varibale 
+
+if1= 10 
+
+
+_10=6 
+
+Python Assignment Statement
+
+
+x = y = 10 
+
+
+
+x 
+
+
+10
+
+
+y 
+
+10
+
+
+x = 20 
+
+
+id(x) 
+
+
+140735067104240
+
+
+y = 20 
+
+
+id(y) 
+
+
+140735067104240
+id(y) 
+
+140735067104240
+
+
+del y 
+
+
+
+id(y) 
+
+
+ASSIGNMENT OPERATOR
+
+
+5**5 
+
+
+3125
+
+9**9 
+
+
+387420489
+
+
+11**14 
+
+379749833583241
+
+10+20 
+
+30
+
+10/2 
+
+5.0
+
+10-20 
+
+-10
+
+10/3 
+
+3.3333333333333335
+
+10//3 
+
+
+3
+
+11*14 
+
+154
+
+Comparison Operator
+
+
+a = 10 b= 20 a == b 
+
+
+False
+
+
+c= 10 a == c 
+
+
+
+True
+
+c < a
+False
+
+
+c <= a 
+
+True
+
+
+
+a>=b 
+
+False
+
+
+
+a!=b 
+
+True
+
+BITWISE OPERATOR
+
+
+a=240 
+
+
+
+b=1 
+
+
+a|b 
+
+
+
+11
+
+a&b 
+
+
+0
+
+Logical Operator
+
+
+
+a=1 
+
+
+b = 20 
+
+
+a>20 
+
+
+False
+
+
+a>20 or 10 > 9 
+
+True
+
+10 > 9 and 20 > M 
+
+
+10<9 and 20>M 
+
+False
+
+not 10 < 9 
+
+True
+
+MEMBERSHIP OPERATOR
+
+
+strl = "pythonprogramming" "a" in strl 
+
+True
+
+strl = "pythonprogramming" "x" in strl 
+
+
+False
+
+
+strl = "pythonprogramming" "x" not in strl 
+
+Out[104]:
+
+True
+
+IDENTITY OPERATOR 
+
+
+a = 10 b = 10 a == b 
+
+
+True
+
+
+
